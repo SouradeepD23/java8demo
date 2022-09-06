@@ -86,7 +86,7 @@ public class StreamsMain {
     }
 
     private static  List<Person> getPeople() {
-        return List.of(
+        return Arrays.asList(
                 new Person("James Bond", 20, Gender.MALE),
                 new Person("Alina Smith", 57, Gender.FEMALE),
                 new Person("Helen White", 33, Gender.OTHERS),
